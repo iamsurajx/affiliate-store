@@ -36,7 +36,7 @@ export default function Navbar() {
       {/* TOP NAV */}
       <div className="flex items-center justify-between px-6 py-4">
         {/* LOGO */}
-        <h1 className="text-2xl font-bold tracking-wider">ARCHE</h1>
+        <h1 className="text-2xl font-bold tracking-wider">PackTrack</h1>
 
         {/* NAV LINKS (Desktop) */}
         <div className="hidden md:flex gap-8 text-gray-600 font-medium">

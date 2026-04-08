@@ -7,7 +7,7 @@ export default function Footer() {
         
         {/* Logo / Brand */}
         <h2 className="text-xl font-bold text-white tracking-wide mb-4 md:mb-0">
-          ARCHE
+          PackTrack
         </h2>
 
         {/* Social Icons */}
@@ -33,7 +33,7 @@ export default function Footer() {
 
       {/* Bottom Text */}
       <div className="mt-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} ARCHE. All rights reserved.
+        © {new Date().getFullYear()} PackTrack. All rights reserved.
       </div>
     </footer>
   );
