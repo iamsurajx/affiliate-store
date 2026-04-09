@@ -14,7 +14,7 @@ export default function Navbar() {
   ];
 
   const categories = [
-    { name: "T-Shirts", href: "/t-shirts" },
+    { name: "Shirts", href: "/shirts" },
     { name: "Pants", href: "/pants" },
     { name: "Shoes", href: "/shoes" },
     { name: "Watches", href: "/watches" },

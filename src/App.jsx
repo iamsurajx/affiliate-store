@@ -12,18 +12,18 @@ import WinterSale from "./pages/WinterSale";
 import WomenCollections from "./pages/WomenCollections";
 
 // categories pages
-import Pants from "./pages/Pants";
-import Shoes from "./pages/Shoes";
-import FlipkartOffers from "./pages/FlipkartOffers";
-import MyntraOffers from "./pages/MyntraOffers";
-import MeshooOffers from "./pages/MeshooOffers";
-import Under1000 from "./pages/Under1000";
-import Under200 from "./pages/Under200";
-import Under2000 from "./pages/Under2000";
-import Under500 from "./pages/Under500";
-import Sunglasses from "./pages/Sunglasses";
-import Tshirts from "./pages/Tshirts";
-import Watches from "./pages/Watches";
+import Pants from "./categories_pages/Pants";
+import Shoes from "./categories_pages/Shoes";
+import FlipkartOffers from "./categories_pages/FlipkartOffers";
+import MyntraOffers from "./categories_pages/MyntraOffers";
+import MeshooOffers from "./categories_pages/MeshooOffers";
+import Under1000 from "./categories_pages/Under1000";
+import Under200 from "./categories_pages/Under200";
+import Under2000 from "./categories_pages/Under2000";
+import Under500 from "./categories_pages/Under500";
+import Sunglasses from "./categories_pages/Sunglasses";
+import Shirts from "./categories_pages/Shirts";
+import Watches from "./categories_pages/Watches";
 
 
 export default function App() {
@@ -42,8 +42,8 @@ export default function App() {
         <Route path="/winter-sale" element={<WinterSale />} />
 
         {/* Category Pages */}
-        <Route path="/t-shirts" element={<Tshirts />} />
         <Route path="/pants" element={<Pants />} />
+        <Route path="/shirts" element={<Shirts />} />
         <Route path="/shoes" element={<Shoes />} />
         <Route path="/watches" element={<Watches />} />
         <Route path="/sunglasses" element={<Sunglasses />} />
