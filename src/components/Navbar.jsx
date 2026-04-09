@@ -17,15 +17,15 @@ export default function Navbar() {
     { name: "Shirts", href: "/shirts" },
     { name: "Pants", href: "/pants" },
     { name: "Shoes", href: "/shoes" },
-    { name: "Watches", href: "/watches" },
-    { name: "Sunglasses", href: "/sunglasses" },
+    { name: "Myntra Offers", href: "/myntra-offers" },
+    { name: "Flipkart Offers", href: "/flipkart-offers" },
+    { name: "Meshoo Offers", href: "/meshoo-offers" },
     { name: "Under 200", href: "/under-200" },
     { name: "Under 500", href: "/under-500" },
     { name: "Under 1000", href: "/under-1000" },
     { name: "Under 2000", href: "/under-2000" },
-    { name: "Myntra Offers", href: "/myntra-offers" },
-    { name: "Flipkart Offers", href: "/flipkart-offers" },
-    { name: "Meshoo Offers", href: "/meshoo-offers" },
+    { name: "Watches", href: "/watches" },
+    { name: "Sunglasses", href: "/sunglasses" },
   ];
 
   return (
@@ -33,9 +33,9 @@ export default function Navbar() {
       {/* TOP NAV */}
       <div className="flex items-center justify-between px-6 py-4">
         {/* LOGO → Home */}
-       <Link to="/" className="text-2xl font-bold tracking-wider hover:text-orange-500 transition">
-  PackTrack
-</Link>
+        <Link to="/" className="text-2xl font-bold tracking-wider hover:text-orange-500 transition">
+          PackTrack
+        </Link>
 
 
         {/* NAV LINKS (Desktop) */}

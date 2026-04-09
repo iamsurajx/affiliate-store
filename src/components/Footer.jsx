@@ -12,11 +12,11 @@ export default function Footer() {
 
         {/* Social Icons */}
         <div className="flex gap-6 text-2xl">
-          <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" 
+          <a href="https://in.pinterest.com/urbanedgedropship/" target="_blank" rel="noopener noreferrer" 
              className="hover:text-red-500 transition">
             <FaPinterest />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" 
+          <a href="https://www.instagram.com/glamorbazaar/" target="_blank" rel="noopener noreferrer" 
              className="hover:text-pink-500 transition">
             <FaInstagram />
           </a>
