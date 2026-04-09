@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchingOffers from '../components/SearchingOffers'
 
 function Under2000() {
   return (
-    <div>Under2000</div>
+    <div>
+      <SearchingOffers />
+    </div>
   )
 }
 

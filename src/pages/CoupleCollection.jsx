@@ -1,8 +1,11 @@
 import React from 'react'
-
+import UnderConstructor from '../components/UnderConstructor'
 function CoupleCollection() {
   return (
-    <div>CoupleCollection</div>
+    <>
+    <UnderConstructor />
+
+    </>
   )
 }
 

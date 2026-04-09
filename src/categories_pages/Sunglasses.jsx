@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchingOffers from '../components/SearchingOffers'
 
 function Sunglasses() {
   return (
-    <div>Sunglasses</div>
+    <div>
+      <SearchingOffers />
+    </div>
   )
 }
 

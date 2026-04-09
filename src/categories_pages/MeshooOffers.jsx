@@ -1,8 +1,11 @@
 import React from 'react'
+import SearchingOffers from '../components/SearchingOffers'
 
 function MeshooOffers() {
   return (
-    <div>MeshooOffers</div>
+    <div>
+      <SearchingOffers />
+    </div>
   )
 }
 

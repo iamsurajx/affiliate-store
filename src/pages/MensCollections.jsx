@@ -1,8 +1,9 @@
 import React from 'react'
+import UnderConstructor from '../components/UnderConstructor'
 
 function MensCollections() {
   return (
-    <div>MensCollections</div>
+    <UnderConstructor />
   )
 }
 

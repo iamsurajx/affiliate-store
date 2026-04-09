@@ -1,8 +1,9 @@
 import React from 'react'
+import UnderConstructor from '../components/UnderConstructor'
 
 function WinterSale() {
   return (
-    <div>WinterSale</div>
+    <UnderConstructor />
   )
 }
 
