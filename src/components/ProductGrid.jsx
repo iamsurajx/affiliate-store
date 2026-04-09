@@ -2,7 +2,7 @@ import ProductCard from "./ProductCard";
 
 const products = [
   {
-    image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&q=80&w=1160",
+    image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQuDBoTGRGPJMfbSgCiK6fLJt92se-U07h0UqIxDiJQxp0eSA2NvZAVZA9fyqN0mQ1fIVwnhUFbGba2H20TtrBRN6LwvgQ6odXWntlWVjMbaumC820mQfZpnA",
     name: "Aloe Vera",
     description: "Natural skincare product with soothing properties.",
     price: "€25.00",

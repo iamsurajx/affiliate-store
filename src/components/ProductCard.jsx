@@ -4,34 +4,32 @@ export default function ProductCard({ image, name, description, price, discount,
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="relative block rounded-lg border border-gray-200 shadow hover:shadow-md transition"
+      className="block rounded-xl shadow-lg hover:shadow-xl transition bg-white overflow-hidden"
     >
-      {/* Discount Badge */}
-      {discount && (
-        <span className="absolute -top-px -right-px rounded-se-lg rounded-es-lg bg-rose-600 px-3 py-1 text-xs font-medium tracking-widest text-white uppercase">
-          Save {discount}%
-        </span>
-      )}
-
-      {/* Product Image */}
-      <img
-        src={image}
-        alt={name}
-        className="h-48 w-full object-cover"
-      />
+      {/* Image with Discount Badge */}
+      <div className="relative w-full h-56 bg-gray-50">
+        <img
+          src={image}
+          alt={name}
+          className="w-full h-full object-contain p-4"
+        />
+        {discount && (
+          <span className="absolute top-3 left-3 bg-rose-600 px-3 py-1 text-xs font-semibold text-white rounded-md shadow">
+            Save {discount}%
+          </span>
+        )}
+      </div>
 
       {/* Product Info */}
-      <div className="p-3 text-center">
-        <strong className="text-sm font-semibold text-gray-900">{name}</strong>
-
-        <p className="mt-1 text-xs text-gray-600">{description}</p>
-
-        <p className="mt-2 text-sm font-bold text-blue-600">{price}</p>
+      <div className="p-4 text-center">
+        <h3 className="text-base font-semibold text-gray-900">{name}</h3>
+        <p className="mt-1 text-sm text-gray-600">{description}</p>
+        <p className="mt-2 text-lg font-bold text-blue-600">{price}</p>
 
         {/* CTA Button */}
-        <span className="mt-3 inline-block rounded-md border border-indigo-900 bg-indigo-900 px-3 py-2 text-xs font-medium tracking-widest text-white uppercase transition-colors hover:bg-white hover:text-indigo-900">
-          Buy now
-        </span>
+        <button className="mt-4 w-full rounded-md border border-indigo-900 bg-indigo-900 px-4 py-2 text-sm font-medium tracking-widest text-white uppercase transition-colors hover:bg-white hover:text-indigo-900">
+          Buy Now
+        </button>
       </div>
     </a>
   );
